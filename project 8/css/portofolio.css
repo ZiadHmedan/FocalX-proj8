@@ -1,0 +1,107 @@
+.portofolio {
+  background: rgba(245, 245, 245, 1);
+  height: 100vh;
+  padding: 16px 80px;
+  position: relative;
+  transition: 1s all;
+
+  overflow: hidden;
+}
+.over {
+  overflow: hidden;
+  position: relative;
+}
+.pContent {
+  display: flex;
+  /* height: 75vh; */
+  display: flex;
+  /* position: relative; */
+  align-items: center;
+}
+.pMain {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.font--400--20--000000 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+.font--600--40--000000 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.font--400--16--5c5c5c {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5c5c5c;
+}
+.pTitle {
+  z-index: 1;
+}
+.btn1 {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 33px;
+  height: 33px;
+  margin-top: 3px;
+}
+.linePO {
+  width: 50px;
+  height: 0px;
+  border-bottom: 2px solid #282828;
+}
+.box {
+  height: 460px;
+  width: 48vw;
+  margin-left: -200px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+.bullets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  /* position: absolute;
+  right: 80px;
+  gap: 30px; */
+}
+.bullet {
+  width: 10px;
+  height: 10px;
+  background: #d9d9d9;
+  margin-top: 26px;
+  border-radius: 50%;
+}
+.bulletAfter {
+  transition: 1s all;
+  cursor: pointer;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background-color: transparent;
+  border-radius: 0;
+}
+.tr {
+  transform: translateY(-100%);
+  transition: 1s all;
+}
+.pContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+.pMain {
+  display: grid;
+  justify-content: center;
+}
